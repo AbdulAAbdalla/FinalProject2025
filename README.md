@@ -41,13 +41,13 @@ and Financial tracking system.
 
         Specific Objectives: 
 
-Implement users and Admin accounts, 
+-Implement users and Admin accounts, 
 
-Implement notifications and reminders,
+-Implement notifications and reminders,
 
-Implement Inventories, 
+-Implement Inventories, 
 
-Implement monthly reports.
+-Implement monthly reports.
 
 
 
