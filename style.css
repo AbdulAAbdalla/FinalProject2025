@@ -1,0 +1,148 @@
+
+
+
+/*General Reset*/
+body {
+    margin: 30px;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #caca3a33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*Form container*/
+.LOGIN{
+    
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgb(12, 100, 100);
+   
+    width: 110%; /*allow the App to adopt to different screens.*/
+    height: 90vh;
+    max-width: 400px; /*this is to set the maximize screen view and to maintain the regular appearance of the container*/
+    margin: auto;/*to center the container horizontally*/
+}
+/*Form container*/
+.ADMIN_LOGIN{
+    
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgb(12, 100, 100);
+   
+    width: 110%; /*allow the App to adopt to different screens.*/
+    height: 90vh;
+    max-width: 400px; /*this is to set the maximize screen view and to maintain the regular appearance of the container*/
+    margin: auto;/*to center the container horizontally*/
+}
+
+
+
+
+/*title*/
+h1 {
+    text-align: center;
+    color: #0c0c0c;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Input fields*/
+.LOGIN input {
+    
+    display: block;
+    width: 70%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    margin: 10px auto;/*this create margin space between the text inputs*/
+    border-radius: 8px;
+    text-align: center; /*this aligns placeholder at the center*/
+    transition: border-color 0.3s;/*this highlight the border color when the input is focused on or clicked*/
+}
+
+.LOGIN input:focus{
+    border-color: #cbee08;
+    outline: none;
+}
+
+/*Buttons*/
+.login-btn {
+    margin-top: 0px;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #f2f5f2; 
+    color: rgb(112, 108, 108);
+    border: none;
+    border-radius: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+/*Buttons hover style*/
+.login-btn:hover {
+    background-color: #45a049;
+}
+/* Aligning buttons horizontally*/
+.button-row{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    margin-top: 20px;
+}
+
+/*to align all button evenly with equal space within the flex container set on .button-row*/
+.button-row .login-btn{
+
+    width: 70px;
+    padding: 8px;
+    font-size: 14px;
+    background-color: #e3e3e3;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/*Signup Buttons hover style*/
+.signup-btn:hover {
+    background-color: #e256b8;
+}
+/* Aligning buttons horizontally*/
+.Signup-btn-row{
+    display: flex;
+    justify-content: center;
+    gap: 43%;
+    margin-top: 20px;
+}
+/*to align all button evenly with equal space within the flex container set on .button-row*/
+.Signup-btn-row .signup-btn{
+
+    width: 70px;
+    padding: 8px;
+    font-size: 14px;
+    background-color: #e3e3e3;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.success-msg, .error-msg {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.success-msg{
+    color: #e256b8;
+}
+
+.error-msg{
+    color: red;
+}
+
+
+
+
+
+

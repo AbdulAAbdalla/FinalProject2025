@@ -1,0 +1,32 @@
+<?php
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+require_once __DIR__ . '/../includes/configSession.inc.php';
+
+if (!isset($_SESSION["admin_id"])){
+    header("Location: admindashboard/adminIndex.php");
+    exit();
+}
+$adminName =$_SESSION["login_success"] ?? 'Welcome Admin';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculator</title>
+</head>
+<body style="font-family: Arial; text-align: center; margin-top: 50px;">
+
+    <h2>CASH CALCULATOR PANEL</h2>
+
+    <p>Hello, <?=htmlspecialchars($adminName) ?>. The Cash Calculator  Module is under construction.</p>
+
+    <p><a href="/FinalProject2025/dashboard/admin.php">Back to Admin Dashboard.</a></p>
+
+</body>
+</html>

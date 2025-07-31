@@ -1,0 +1,70 @@
+/* dashboardstyle.css*/
+body {
+    margin: 27px;
+    padding: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: hsla(183, 58%, 51%, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.SystemAdmin_Login{
+    
+    border-color: #cbee08;
+    background-color:rgb(115, 216, 115);
+    padding: 0px 2px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgb(12, 100, 100);
+    width: 110%; /*allow the App to adopt to different screens.*/
+    height: 70vh;
+    max-width: 300px; /*this is to set the maximize screen view and to maintain the regular appearance of the container*/
+    margin: auto;/*to center the container horizontally*/
+}
+
+.SystemAdmin_Login h1 {
+    color: navy;
+    scroll-margin-bottom: 20px;
+}
+
+.login-btn {
+    margin-top: 10px;
+    display: block;
+    margin: 10px auto;
+    background-color: #e6f590; 
+    color: rgb(112, 108, 108);
+    border: none;
+    border-radius: 1px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.ADMIN_LOGIN input[type="text"],
+.ADMIN_LOGIN input[type="password"] {
+    border-color: #cbee08;
+    border-radius: 50px;
+    outline: none;
+    width: 90%;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.error-msg {
+    color: red;
+}
+.login-btn:hover {
+    background-color: #cbee08;
+}
+.success-msg {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+
+
+
+
+
