@@ -6,7 +6,7 @@
 
 INTRODUCTION
 
-I am a student of Zetech University undertaking Diploma in software engineering as a career path. 
+I specialised in software engineering aiming to be part of the main drivers of the emerging new technologies . 
 With this project, I managed to transform my idea into a fast scalable digitized business inventory 
 and financial tracking system. The system is targeting photographers and even other enterprises,  
 seeking for transparency, efficiency, reliability, and accountable in business transactions. This 
